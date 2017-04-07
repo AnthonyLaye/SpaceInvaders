@@ -8,3 +8,8 @@
 *.spd
 *.f
 *.wlf
+/db/
+/incremental_db/
+/simulation/
+/work/
+*.qpf
