@@ -1,0 +1,65 @@
+D:/Lab4Final/game_controller.vhd {1 {vcom -work work -2002 -explicit -stats=none {D:\Lab4Final\game_controller.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity game_controller
+-- Compiling architecture behaviour of game_controller
+
+} {} {}} D:/Lab4Final/tb_game_controller.vhd {0 {vcom -work work -2002 -explicit -stats=none {D:\Lab4Final\tb_game_controller.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_game_controller
+-- Compiling architecture behaviour of tb_game_controller
+** Error (suppressible): D:\Lab4Final\tb_game_controller.vhd(62): (vcom-1195) Cannot find expanded name "game_controller.current_state".
+** Error: D:\Lab4Final\tb_game_controller.vhd(62): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+** Error (suppressible): D:\Lab4Final\tb_game_controller.vhd(64): (vcom-1195) Cannot find expanded name "game_controller.current_state".
+** Error (suppressible): D:\Lab4Final\tb_game_controller.vhd(64): (vcom-1195) Cannot find expanded name "game_controller.pre_game".
+** Error: D:\Lab4Final\tb_game_controller.vhd(64): Unknown expanded name.
+** Error: D:\Lab4Final\tb_game_controller.vhd(64): Unknown expanded name.
+** Error: D:\Lab4Final\tb_game_controller.vhd(64): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error (suppressible): D:\Lab4Final\tb_game_controller.vhd(66): (vcom-1195) Cannot find expanded name "game_controller.shoot".
+** Error: D:\Lab4Final\tb_game_controller.vhd(66): Illegal target for signal assignment.
+** Error: D:\Lab4Final\tb_game_controller.vhd(66): Unknown expanded name.
+** Error (suppressible): D:\Lab4Final\tb_game_controller.vhd(68): (vcom-1195) Cannot find expanded name "game_controller.current_state".
+** Error (suppressible): D:\Lab4Final\tb_game_controller.vhd(68): (vcom-1195) Cannot find expanded name "game_controller.gameplay".
+** Error: D:\Lab4Final\tb_game_controller.vhd(68): Unknown expanded name.
+** Error: D:\Lab4Final\tb_game_controller.vhd(68): Unknown expanded name.
+** Error: D:\Lab4Final\tb_game_controller.vhd(68): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error (suppressible): D:\Lab4Final\tb_game_controller.vhd(70): (vcom-1195) Cannot find expanded name "game_controller.alien".
+** Error: D:\Lab4Final\tb_game_controller.vhd(70): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+** Error (suppressible): D:\Lab4Final\tb_game_controller.vhd(72): (vcom-1195) Cannot find expanded name "game_controller.current_state".
+** Error (suppressible): D:\Lab4Final\tb_game_controller.vhd(72): (vcom-1195) Cannot find expanded name "game_controller.lost_life".
+** Error: D:\Lab4Final\tb_game_controller.vhd(72): Unknown expanded name.
+** Error: D:\Lab4Final\tb_game_controller.vhd(72): Unknown expanded name.
+** Error: D:\Lab4Final\tb_game_controller.vhd(72): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error (suppressible): D:\Lab4Final\tb_game_controller.vhd(74): (vcom-1195) Cannot find expanded name "game_controller.life_ctr".
+** Error: D:\Lab4Final\tb_game_controller.vhd(74): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+** Error (suppressible): D:\Lab4Final\tb_game_controller.vhd(76): (vcom-1195) Cannot find expanded name "game_controller.current_state".
+** Error (suppressible): D:\Lab4Final\tb_game_controller.vhd(76): (vcom-1195) Cannot find expanded name "game_controller.game_over".
+** Error: D:\Lab4Final\tb_game_controller.vhd(76): Unknown expanded name.
+** Error: D:\Lab4Final\tb_game_controller.vhd(76): Unknown expanded name.
+** Error: D:\Lab4Final\tb_game_controller.vhd(76): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error (suppressible): D:\Lab4Final\tb_game_controller.vhd(78): (vcom-1195) Cannot find expanded name "game_controller.life_ctr".
+** Error: D:\Lab4Final\tb_game_controller.vhd(78): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+** Error (suppressible): D:\Lab4Final\tb_game_controller.vhd(80): (vcom-1195) Cannot find expanded name "game_controller.current_state".
+** Error (suppressible): D:\Lab4Final\tb_game_controller.vhd(80): (vcom-1195) Cannot find expanded name "game_controller.pre_game".
+** Error: D:\Lab4Final\tb_game_controller.vhd(80): Unknown expanded name.
+** Error: D:\Lab4Final\tb_game_controller.vhd(80): Unknown expanded name.
+** Error: D:\Lab4Final\tb_game_controller.vhd(80): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error (suppressible): D:\Lab4Final\tb_game_controller.vhd(82): (vcom-1195) Cannot find expanded name "game_controller.score".
+** Error: D:\Lab4Final\tb_game_controller.vhd(82): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+** Error (suppressible): D:\Lab4Final\tb_game_controller.vhd(84): (vcom-1195) Cannot find expanded name "game_controller.current_state".
+** Error (suppressible): D:\Lab4Final\tb_game_controller.vhd(84): (vcom-1195) Cannot find expanded name "game_controller.game_over".
+** Error: D:\Lab4Final\tb_game_controller.vhd(84): Unknown expanded name.
+** Error: D:\Lab4Final\tb_game_controller.vhd(84): Unknown expanded name.
+** Error: D:\Lab4Final\tb_game_controller.vhd(84): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error (suppressible): D:\Lab4Final\tb_game_controller.vhd(86): (vcom-1195) Cannot find expanded name "game_controller.ship".
+** Error: D:\Lab4Final\tb_game_controller.vhd(86): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+** Error: D:\Lab4Final\tb_game_controller.vhd(88): near "game_controller": (vcom-1576) expecting == or '+' or '-' or '&'.
+** Error: D:\Lab4Final\tb_game_controller.vhd(98): VHDL Compiler exiting
+
+} {9.0 10.0 12.0 15.0 16.0 18.0 20.0 23.0 24.0 25.0 27.0 30.0 31.0 32.0 34.0 37.0 38.0 39.0 41.0 44.0 45.0 46.0 48.0 51.0 52.0 55.0} {}}

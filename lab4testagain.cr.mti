@@ -1,0 +1,18 @@
+E:/Lab4Final/tb_game_controller.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Lab4Final/tb_game_controller.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_game_controller
+-- Compiling architecture behaviour of tb_game_controller
+
+} {} {}} E:/Lab4Final/game_controller.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Lab4Final/game_controller.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity game_controller
+-- Compiling architecture behaviour of game_controller
+
+} {} {}}

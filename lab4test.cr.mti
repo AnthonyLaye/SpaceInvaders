@@ -1,0 +1,38 @@
+E:/Lab4Final/tb_game_controller.vhd {0 {vcom -work work -2002 -explicit -stats=none E:/Lab4Final/tb_game_controller.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_game_controller
+-- Compiling architecture behaviour of tb_game_controller
+** Error: E:/Lab4Final/tb_game_controller.vhd(62): Illegal expanded name prefix ("dut" is not label of block, process, generate, or (for) loop statement).
+** Error: E:/Lab4Final/tb_game_controller.vhd(62): (vcom-1195) Cannot find expanded name "dut.shoot_in".
+
+** Error: E:/Lab4Final/tb_game_controller.vhd(62): near "=": expecting <= or :=
+** Error: E:/Lab4Final/tb_game_controller.vhd(64): Illegal expanded name prefix ("dut" is not label of block, process, generate, or (for) loop statement).
+** Error: E:/Lab4Final/tb_game_controller.vhd(64): (vcom-1195) Cannot find expanded name "dut.current_state".
+
+** Error: E:/Lab4Final/tb_game_controller.vhd(64): Unknown expanded name.
+** Error: E:/Lab4Final/tb_game_controller.vhd(64): (vcom-1136) Unknown identifier "pre_game".
+
+** Error: E:/Lab4Final/tb_game_controller.vhd(64): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: E:/Lab4Final/tb_game_controller.vhd(68): Illegal expanded name prefix ("dut" is not label of block, process, generate, or (for) loop statement).
+** Error: E:/Lab4Final/tb_game_controller.vhd(68): (vcom-1195) Cannot find expanded name "dut.current_state".
+
+** Error: E:/Lab4Final/tb_game_controller.vhd(68): Unknown expanded name.
+** Error: E:/Lab4Final/tb_game_controller.vhd(68): (vcom-1136) Unknown identifier "gameplay".
+
+** Error: E:/Lab4Final/tb_game_controller.vhd(68): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: E:/Lab4Final/tb_game_controller.vhd(74): Illegal target for signal assignment.
+** Error: E:/Lab4Final/tb_game_controller.vhd(74): (vcom-1136) Unknown identifier "game_controller_instance".
+
+** Error: E:/Lab4Final/tb_game_controller.vhd(76): Illegal expanded name prefix ("dut" is not label of block, process, generate, or (for) loop statement).
+** Error: E:/Lab4Final/tb_game_controller.vhd(76): (vcom-1195) Cannot find expanded name "dut.current_state".
+
+** Error: E:/Lab4Final/tb_game_controller.vhd(76): Unknown expanded name.
+** Error: E:/Lab4Final/tb_game_controller.vhd(76): (vcom-1136) Unknown identifier "game_over".
+
+** Error: E:/Lab4Final/tb_game_controller.vhd(76): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: E:/Lab4Final/tb_game_controller.vhd(85): VHDL Compiler exiting
+
+} {8.0 10.0 11.0 14.0 15.0 17.0 18.0 21.0 22.0 24.0 25.0 28.0 29.0 31.0 32.0 34.0 35.0 37.0} {}}
